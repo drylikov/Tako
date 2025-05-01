@@ -1,0 +1,19 @@
+{ "name" : "Tako"
+, "description" : "Functional web framework."
+, "tags" : ["http", "simple", "util", "utility", "web", "framework", "webframework"]
+, "version" : "0.3.0"
+, "author" : "Denis Rylikov <denis.rylikov@protonmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/drylikov/tako.git"
+  }
+, "bugs" :
+  { "url" : "http://github.com/drylikov/tako/issues" }
+, "main" : "./index.html"
+, "dependencies": 
+  { "filed":">= 0.0.6"
+  , "mapleTree":"*"
+  }
+, "devDependencies": { "request": "2.9.x" }
+, "scripts": { "test": "node tests/run.js" }
+}
